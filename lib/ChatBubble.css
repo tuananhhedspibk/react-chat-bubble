@@ -98,3 +98,62 @@
   height: 80%;
   font-size: 1.5rem;
 }
+
+.time-me {
+  background-color: #000;
+  border-radius: 6px;
+  color: #fff;
+  left: 1.5%;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  transition: opacity .5s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.time-you {
+  background-color: #000;
+  border-radius: 6px;
+  color: #fff;
+  opacity: 0;
+  padding: 10px;
+  position: absolute;
+  right: 2.5%;
+  transition: opacity .5s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.time-me::after {
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #000;
+  content: "";
+  left: 100%;
+  margin-top: -5px;
+  position: absolute;
+  top: 50%;
+}
+
+.time-you::after {
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #000 transparent transparent;
+  content: "";
+  left: -17%;
+  margin-top: -5px;
+  position: absolute;
+  top: 50%;
+}
+
+.bubble-direction-reverse:hover .time-you {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+.bubble-container:hover .time-me {
+  opacity: 0.8;
+  visibility: visible;
+}
+
