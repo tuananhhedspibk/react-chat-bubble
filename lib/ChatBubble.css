@@ -103,7 +103,7 @@
   background-color: #000;
   border-radius: 6px;
   color: #fff;
-  left: 1.5%;
+  left: -48px;
   opacity: 0;
   padding: 10px;
   position: absolute;
@@ -119,7 +119,7 @@
   opacity: 0;
   padding: 10px;
   position: absolute;
-  right: 2.5%;
+  right: -33px;
   transition: opacity .5s;
   visibility: hidden;
   z-index: 1;
