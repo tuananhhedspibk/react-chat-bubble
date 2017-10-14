@@ -169,3 +169,11 @@
   margin-left: 16px;
   margin-right: 16px;
 }
+
+.bubble-link > a{
+  color: #fff;
+}
+
+.bubble-link .fa {
+  margin-right: 8px;
+}
