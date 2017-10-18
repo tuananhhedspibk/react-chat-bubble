@@ -11,17 +11,26 @@
   flex-direction: row-reverse;
 }
 
+.bubble-container .text-content {
+  white-space: pre-wrap;
+}
+
 .bubble{
+    align-items: center;
     background-color: #F2F2F2;
     border-radius: 5px;
     box-shadow: 0 0 6px #B2B2B2;
-    display: block;
+    display: flex;
     padding: 10px 18px;
     position: relative;
     max-width: 48%;
     vertical-align: top;
     color: white;
     word-wrap: break-word;
+}
+
+.bubble div {
+  display: inline-block;
 }
 
 .bubble::before {
