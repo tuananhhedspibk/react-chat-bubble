@@ -19,7 +19,6 @@
     align-items: center;
     background-color: #F2F2F2;
     border-radius: 5px;
-    box-shadow: 0 0 6px #B2B2B2;
     display: flex;
     padding: 10px 18px;
     position: relative;
@@ -50,12 +49,12 @@
 
 .me {
     background-color: #f1f0f0;
+    color: #000;
     margin-left: 16px;
     margin-right: 16px;
 }
 
 .me::before {
-    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
     left: -9px;
     background-color: #f1f0f0;
 }
@@ -67,7 +66,6 @@
 }
 
 .you::before {
-    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
     right: -9px;
     background-color: #087FFE;
 }
