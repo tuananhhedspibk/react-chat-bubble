@@ -177,6 +177,15 @@
   margin-right: 16px;
 }
 
+.bubble-emoji {
+  align-items: center;
+  display: flex;
+  max-width: 48%;
+  padding: 10px 18px;
+  position: relative;
+  vertical-align: top;
+}
+
 .bubble-link > a{
   color: #fff;
 }
