@@ -15,6 +15,10 @@
   white-space: pre-wrap;
 }
 
+.bubble-emoji .emoji-mart-emoji{
+  margin-right: 8px;
+}
+
 .bubble{
     align-items: center;
     background-color: #F2F2F2;
@@ -32,21 +36,6 @@
   display: inline-block;
 }
 
-.bubble::before {
-    background-color: #F2F2F2;
-    content: "\00a0";
-    display: block;
-    height: 16px;
-    position: absolute;
-    top: 11px;
-    transform:             rotate( 29deg ) skew( -35deg );
-        -moz-transform:    rotate( 29deg ) skew( -35deg );
-        -ms-transform:     rotate( 29deg ) skew( -35deg );
-        -o-transform:      rotate( 29deg ) skew( -35deg );
-        -webkit-transform: rotate( 29deg ) skew( -35deg );
-    width:  20px;
-}
-
 .me {
     background-color: #f1f0f0;
     color: #000;
@@ -54,20 +43,10 @@
     margin-right: 16px;
 }
 
-.me::before {
-    left: -9px;
-    background-color: #f1f0f0;
-}
-
 .you {
     background-color: #087FFE;
     margin-left: 16px;
     margin-right: 16px;
-}
-
-.you::before {
-    right: -9px;
-    background-color: #087FFE;
 }
 
 .img-circle {
