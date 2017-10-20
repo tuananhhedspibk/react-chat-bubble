@@ -19,6 +19,10 @@
   margin-left: 8px;
 }
 
+.hastag-box {
+  position: relative;
+}
+
 .bubble{
     align-items: center;
     background-color: #F2F2F2;
