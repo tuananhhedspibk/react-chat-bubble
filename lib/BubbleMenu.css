@@ -1,14 +1,17 @@
 .tools{
   background-color: black;
+  border-radius: 25px;
+  margin-right: 16px;
   opacity: .8;
   display: flex;
   flex-wrap: wrap;
   width: 150px;
   align-items: center;
-  height: 60%;
+  height: 40px;
   padding: 15px;
   justify-content: space-between;
   transition: 0.3s margin ease-in-out;
+  visibility: hidden;
 }
 
 .tools .icon{
@@ -19,11 +22,15 @@
   transform: scale(0.8);
 }
 
-.tools--hidden{
-  z-index: -100;
+.tools--visible{
+  z-index: 100;
 }
 
-.tools--visible{
-  margin-top: 40%;
-  z-index: 100;
+.tool {
+  color: white;
+}
+
+.hashtag-box {
+  align-items: center;
+  display: flex;
 }
