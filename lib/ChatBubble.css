@@ -185,18 +185,18 @@
 }
 
 .bubble-emoji-you {
-  margin-rgiht: 16px;
+  margin-right: 16px;
 }
 
 .bubble-emoji-me {
   margin-left: 16px;
 }
 
-.bubble-emoji-me .emoji-mart {
+.bubble-emoji-me .emoji-mart-emoji {
   margin-left: 6px;
 }
 
-.bubble-emoji-you .emoji-mart {
+.bubble-emoji-you .emoji-mart-emoji {
   margin-right: 6px;
 }
 
