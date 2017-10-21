@@ -1,0 +1,29 @@
+.tools{
+  background-color: black;
+  opacity: .8;
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  align-items: center;
+  height: 60%;
+  padding: 15px;
+  justify-content: space-between;
+  transition: 0.3s margin ease-in-out;
+}
+
+.tools .icon{
+  transition: 0.2s transform ease-in-out;
+}
+
+.tools .icon:hover{
+  transform: scale(0.8);
+}
+
+.tools--hidden{
+  z-index: -100;
+}
+
+.tools--visible{
+  margin-top: 40%;
+  z-index: 100;
+}
