@@ -29,12 +29,12 @@
   cursor: pointer;
 }
 
-.hashtag-box {
+.menu-box {
   align-items: center;
   display: flex;
 }
 
-.hashtag-box .fa-ellipsis-h {
+.menu-box .fa-ellipsis-h {
   color: #d8d8d8;
   cursor: pointer;
 }
