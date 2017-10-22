@@ -2,16 +2,14 @@
   background-color: black;
   border-radius: 25px;
   margin-right: 16px;
-  opacity: .8;
-  display: flex;
+  opacity: .7;
   flex-wrap: wrap;
-  width: 150px;
   align-items: center;
   height: 40px;
   padding: 15px;
   justify-content: space-between;
-  transition: 0.3s margin ease-in-out;
-  visibility: hidden;
+  transition: 0.3s all ease-in-out;
+  display: none;
 }
 
 .tools .icon{
@@ -33,4 +31,9 @@
 .hashtag-box {
   align-items: center;
   display: flex;
+}
+
+.hashtag-box .fa-ellipsis-h {
+  color: #d8d8d8;
+  cursor: pointer;
 }
