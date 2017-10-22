@@ -2,10 +2,10 @@
   background-color: black;
   border-radius: 25px;
   margin-right: 16px;
-  opacity: .7;
+  opacity: .65;
   flex-wrap: wrap;
   align-items: center;
-  height: 40px;
+  height: 35px;
   padding: 15px;
   justify-content: space-between;
   transition: 0.3s all ease-in-out;
@@ -26,6 +26,7 @@
 
 .tool {
   color: white;
+  cursor: pointer;
 }
 
 .hashtag-box {
