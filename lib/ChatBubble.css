@@ -1,6 +1,5 @@
 .bubble-container{
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
   display:flex;
   font-family: sans-serif;
   font-size: 14px;
@@ -13,6 +12,7 @@
 
 .bubble-container .text-content {
   white-space: pre-wrap;
+  width: 100%;
 }
 
 .hastag-box {
@@ -112,7 +112,7 @@
   border-color: transparent #000 transparent transparent;
   content: "";
   margin-top: -5px;
-  left: -10px;
+  left: -8px;
   position: absolute;
   top: 50%;
 }
@@ -122,7 +122,7 @@
   border-style: solid;
   border-color: transparent transparent transparent #000;
   content: "";
-  right: -10px;
+  right: -8px;
   margin-top: -5px;
   position: absolute;
   top: 50%;
@@ -162,6 +162,10 @@
   animation: seconds 2.5s forwards;
   animation-iteration-count: 1;
   animation-delay: 0;
+}
+
+.bubble-container:hover .menu-box .fa-ellipsis-h {
+  display: inline-block;
 }
 
 .bubble-img {

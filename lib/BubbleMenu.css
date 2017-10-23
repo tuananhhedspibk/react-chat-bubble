@@ -1,8 +1,8 @@
 .tools{
   background-color: black;
-  border-radius: 25px;
+  border-radius: 6px;
   margin-right: 16px;
-  opacity: .65;
+  opacity: .7;
   flex-wrap: wrap;
   align-items: center;
   height: 35px;
@@ -32,9 +32,46 @@
 .menu-box {
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 .menu-box .fa-ellipsis-h {
   color: #d8d8d8;
   cursor: pointer;
+  display: none;
+}
+
+div.ReactTags__tags::after {
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, .7) transparent;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -12px;
+}
+
+div.ReactTags__tags {
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 6px;
+  display: none;
+  left: -95px;
+  padding: 10px;
+  position: absolute !important;
+  top: 40px;
+  z-index: 100;
+}
+
+div.ReactTags__selected span.ReactTags__tag {
+  border: none !important;
+  background-color: white !important;
+  border-radius: 3px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+div.ReactTags__tagInput input.ReactTags__tagInputField {
+  margin-top: 5px !important;
+  padding: 6px;
+  width: calc(100% - 10px) !important;
 }
