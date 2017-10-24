@@ -48,7 +48,7 @@ div.ReactTags__tags::after {
   content: "";
   position: absolute;
   left: 50%;
-  top: -12px;
+  top: -10px;
 }
 
 div.ReactTags__tags {
