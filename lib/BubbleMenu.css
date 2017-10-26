@@ -75,3 +75,7 @@ div.ReactTags__tagInput input.ReactTags__tagInputField {
   padding: 6px;
   width: calc(100% - 10px) !important;
 }
+
+.menu-box-hidden {
+  display: none;
+}
